@@ -9,13 +9,13 @@ const cairo = Cairo({
   weight: ["300", "400", "500", "600", "700", "800", "900"],
 });
 
-const siteUrl = "https://homelly-tech.com";
+const siteUrl = "https://burjj-almubdia.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "سهلناها | أفضل الأجهزة بأعلى جودة وأفضل سعر",
-    template: "%s | سهلناها",
+    default: "تعاون للأجهزة المنزلية | أفضل الأجهزة بأعلى جودة وأفضل سعر",
+    template: "%s | تعاون للأجهزة المنزلية",
   },
   description:
     "وجهتكم الأولى لأحدث الأجهزة الإلكترونية والتقنيات المنزلية والمكتبية. نوفر لكم أحدث الابتكارات التقنية من أرقى الماركات العالمية بأفضل الأسعار مع ضمان الجودة.",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "أجهزة كهربائية",
     "تلفزيون",
     "مكيفات",
-    "سهلناها",
+    "تعاون للأجهزة المنزلية",
     "تسوق إلكتروني",
     "أفضل سعر",
     "ماركات عالمية",
@@ -35,26 +35,26 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ar_SA",
     url: siteUrl,
-    siteName: "سهلناها",
-    title: "سهلناها | أفضل الأجهزة بأعلى جودة وأفضل سعر",
+    siteName: "تعاون للأجهزة المنزلية",
+    title: "تعاون للأجهزة المنزلية | أفضل الأجهزة بأعلى جودة وأفضل سعر",
     description:
       "وجهتكم الأولى لأحدث الأجهزة الإلكترونية والتقنيات المنزلية والمكتبية. نوفر لكم أحدث الابتكارات التقنية من أرقى الماركات العالمية.",
     images: [
       {
-        url: "https://homelly-tech.com/og-image.jpg",
+        url: "https://burjj-almubdia.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "سهلناها",
+        alt: "تعاون للأجهزة المنزلية",
         type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "سهلناها | أفضل الأجهزة بأعلى جودة وأفضل سعر",
+    title: "تعاون للأجهزة المنزلية | أفضل الأجهزة بأعلى جودة وأفضل سعر",
     description:
       "وجهتكم الأولى لأحدث الأجهزة الإلكترونية والتقنيات المنزلية والمكتبية.",
-    images: ["https://homelly-tech.com/og-image.jpg"],
+    images: ["https://burjj-almubdia.com/og-image.jpg"],
   },
   robots: {
     index: true,

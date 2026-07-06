@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import WhatsAppButton from "../components/WhatsAppButton";
 
 export const metadata = {
-  title: "سياسة الخصوصية | سهلناها",
+  title: "سياسة الخصوصية | تعاون للأجهزة المنزلية",
 };
 
 const sections = [

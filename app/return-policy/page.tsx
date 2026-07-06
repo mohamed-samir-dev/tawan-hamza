@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import WhatsAppButton from "../components/WhatsAppButton";
 
 export const metadata = {
-  title: "سياسة الاسترجاع | نخبة العود",
+  title: "سياسة الاسترجاع | تعاون للأجهزة المنزلية",
 };
 
 export default function ReturnPolicyPage() {

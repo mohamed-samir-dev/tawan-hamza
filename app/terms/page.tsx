@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import WhatsAppButton from "../components/WhatsAppButton";
 
 export const metadata = {
-  title: "الشروط والأحكام | مدار الأجهزة الإلكترونية",
+  title: "الشروط والأحكام | تعاون للأجهزة المنزلية",
 };
 
 const sections = [

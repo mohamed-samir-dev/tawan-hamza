@@ -5,7 +5,7 @@ export default function Hero() {
     <section dir="rtl" className="relative w-full h-[400px] sm:h-[500px] md:h-[620px] overflow-hidden">
       <Image
         src="/hhhhh.webp"
-        alt="سهلناها - أجهزة منزلية بأعلى جودة"
+        alt="تعاون للأجهزة المنزلية - أجهزة منزلية بأعلى جودة"
         fill
         className="object-cover object-center"
         priority

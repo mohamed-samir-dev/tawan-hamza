@@ -4,8 +4,8 @@ import WhatsAppButton from "../components/WhatsAppButton";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "سياسة الشحن | سهلناها",
-  description: "سياسة الشحن والتوصيل لسهلناها",
+  title: "سياسة الشحن | تعاون للأجهزة المنزلية",
+  description: "سياسة الشحن والتوصيل لتعاون للأجهزة المنزلية",
 };
 
 export default function ShippingPolicyPage() {
