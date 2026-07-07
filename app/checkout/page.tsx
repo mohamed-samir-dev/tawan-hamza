@@ -101,7 +101,7 @@ export default function CheckoutPage() {
           <div className="flex items-center gap-2 text-sm text-gray-400 mb-6">
             <Link href="/" className="hover:text-secondary transition-colors">الرئيسية</Link>
             <span className="material-symbols-outlined text-[14px]">chevron_left</span>
-            <a href="/cart" className="hover:text-secondary transition-colors">السلة</a>
+            <Link href="/cart" className="hover:text-secondary transition-colors">السلة</Link>
             <span className="material-symbols-outlined text-[14px]">chevron_left</span>
             <span className="text-gray-700 font-medium">إتمام الطلب</span>
           </div>
@@ -346,13 +346,13 @@ export default function CheckoutPage() {
                     </div>
                   </div>
 
-                  <a
+                  <Link
                     href="/cart"
                     className="mt-3 flex items-center justify-center gap-1.5 text-xs text-gray-400 hover:text-secondary transition-colors"
                   >
                     <span className="material-symbols-outlined text-[14px]">arrow_forward</span>
                     تعديل السلة
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
