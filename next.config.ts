@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  poweredByHeader: false,
+  serverExternalPackages: [],
   images: {
     remotePatterns: [
       { protocol: "http", hostname: "localhost", port: "5000", pathname: "/uploads/**" },
@@ -21,10 +23,7 @@ const nextConfig: NextConfig = {
           { key: "Cross-Origin-Opener-Policy", value: "same-origin" },
           { key: "Cross-Origin-Resource-Policy", value: "same-origin" },
           { key: "Cross-Origin-Embedder-Policy", value: "require-corp" },
-          {
-            key: "Content-Security-Policy",
-            value: "default-src 'self'; img-src 'self' https: data:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; connect-src 'self' https:; font-src 'self' https://fonts.gstatic.com https: data:; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests;",
-          },
+
         ],
       },
     ];

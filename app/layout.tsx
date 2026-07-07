@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import { Cairo } from "next/font/google";
 import "./globals.css";
 import Providers from "./components/Providers";
@@ -78,11 +79,12 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const nonce = (await headers()).get("x-nonce") ?? "";
   return (
     <html lang="ar" dir="rtl" className={`${cairo.variable}`}>
       <head>
@@ -90,6 +92,7 @@ export default function RootLayout({
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
           rel="stylesheet"
+          nonce={nonce}
         />
         <meta name="theme-color" content="#1a237e" />
       </head>
