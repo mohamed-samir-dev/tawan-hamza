@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { useCart } from "../context/CartContext";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -52,7 +53,7 @@ export default function CheckoutPage() {
           phone: form.phone,
           address: form.address,
           notes: form.notes,
-          paymentMethod: paymentMethod === "tap" ? "tap" : "cash_on_delivery",
+          paymentMethod: "cash_on_delivery",
           items: items.map((i) => ({ productId: i.productId, quantity: i.quantity })),
         }),
       });
@@ -79,10 +80,10 @@ export default function CheckoutPage() {
             </div>
             <h1 className="text-2xl font-bold text-gray-800 mb-2">السلة فارغة</h1>
             <p className="text-gray-400 text-sm mb-8">أضف منتجات للسلة أولاً لإتمام الطلب</p>
-            <a href="/products" className="inline-flex items-center gap-2 bg-secondary text-white px-8 py-3.5 rounded-2xl font-bold hover:bg-secondary/85 transition-all shadow-lg shadow-secondary/25">
+            <Link href="/products" className="inline-flex items-center gap-2 bg-secondary text-white px-8 py-3.5 rounded-2xl font-bold hover:bg-secondary/85 transition-all shadow-lg shadow-secondary/25">
               <span className="material-symbols-outlined text-[20px]">storefront</span>
               تصفح المنتجات
-            </a>
+            </Link>
           </div>
         </main>
         <Footer />
@@ -98,7 +99,7 @@ export default function CheckoutPage() {
 
           {/* Breadcrumb */}
           <div className="flex items-center gap-2 text-sm text-gray-400 mb-6">
-            <a href="/" className="hover:text-secondary transition-colors">الرئيسية</a>
+            <Link href="/" className="hover:text-secondary transition-colors">الرئيسية</Link>
             <span className="material-symbols-outlined text-[14px]">chevron_left</span>
             <a href="/cart" className="hover:text-secondary transition-colors">السلة</a>
             <span className="material-symbols-outlined text-[14px]">chevron_left</span>

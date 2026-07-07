@@ -4,7 +4,7 @@ import WhatsAppButton from "../components/WhatsAppButton";
 
 export const metadata = {
   title: "من نحن | تعون للأجهزة المنزلية",
-  description: "تعرف على تعون للأجهزة المنزلية - وجهتكم الأولى لأحدث الأجهزة الإلكترونية في المملكة العربية السعودية",
+  description: "تعرف على تعون للأجهزة المنزلية - وجهتكم الأولى لأحدث الأجهزة المنزلية في المملكة العربية السعودية",
 };
 
 export default function AboutPage() {
@@ -82,13 +82,13 @@ export default function AboutPage() {
           <div className="bg-secondary/5 rounded-2xl p-5 sm:p-8 border border-secondary/20">
             <h3 className="text-lg sm:text-xl font-bold text-secondary mb-3">رؤيتنا</h3>
             <p className="text-on-surface-variant leading-relaxed">
-              أن نكون المنصة الرائدة في مجال الأجهزة الإلكترونية في المملكة العربية السعودية، ونقدم تجربة تسوق إلكتروني متميزة وموثوقة.
+              أن نكون المنصة الرائدة في مجال الأجهزة المنزلية في المملكة العربية السعودية، ونقدم تجربة تسوق إلكتروني متميزة وموثوقة.
             </p>
           </div>
           <div className="bg-secondary/5 rounded-2xl p-5 sm:p-8 border border-secondary/20">
             <h3 className="text-lg sm:text-xl font-bold text-secondary mb-3">رسالتنا</h3>
             <p className="text-on-surface-variant leading-relaxed">
-              توفير أحدث الأجهزة الإلكترونية بجودة عالية وأسعار تنافسية، مع تقديم خدمة عملاء استثنائية تلبي تطلعات عملائنا وتتجاوز توقعاتهم.
+              توفير أحدث الأجهزة المنزلية بجودة عالية وأسعار تنافسية، مع تقديم خدمة عملاء استثنائية تلبي تطلعات عملائنا وتتجاوز توقعاتهم.
             </p>
           </div>
         </section>

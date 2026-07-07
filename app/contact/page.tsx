@@ -56,6 +56,8 @@ export default function ContactPage() {
             </div>
 
             <div className="flex items-center gap-3 sm:gap-4 bg-surface-container-low border border-outline-variant/30 rounded-xl p-4 sm:p-5">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-secondary/10 rounded-full flex items-center justify-center">
+                <span className="material-symbols-outlined text-secondary">location_on</span>
               </div>
               <div>
                 <span className="text-sm text-on-surface-variant">العنوان</span>
