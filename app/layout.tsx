@@ -89,7 +89,6 @@ export default async function RootLayout({
     <html lang="ar" dir="rtl" className={`${cairo.variable}`}>
       <head>
         <meta name="google-site-verification" content="_bdpfOKIlFR2M5igXbQUKP5JaknrlnMa1129uAPuPnQ" />
-        <meta name="domain-verification" content="b7ef15c14e0c20e451ef6aa7603d3b3f601c18a1dd1c51344691bd09b694c955" />
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
           rel="stylesheet"
