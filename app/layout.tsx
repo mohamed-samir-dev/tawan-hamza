@@ -86,6 +86,7 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl" className={`${cairo.variable}`}>
       <head>
+        <meta name="google-site-verification" content="_bdpfOKIlFR2M5igXbQUKP5JaknrlnMa1129uAPuPnQ" />
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
           rel="stylesheet"
