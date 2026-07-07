@@ -20,7 +20,9 @@ export function middleware(request: NextRequest) {
     `font-src 'self' https://fonts.gstatic.com https: data:`,
     `object-src 'none'`,
     `base-uri 'self'`,
+    `form-action 'self'`,
     `frame-ancestors 'none'`,
+    `worker-src 'self'`,
     `upgrade-insecure-requests`,
   ].join("; ");
 

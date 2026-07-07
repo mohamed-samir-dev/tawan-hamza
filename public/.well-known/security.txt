@@ -1,3 +1,4 @@
 Contact: mailto:security@burjj-almubdia.com
 Expires: 2026-12-31T23:59:00.000Z
 Preferred-Languages: ar, en
+Canonical: https://burjj-almubdia.com/.well-known/security.txt
