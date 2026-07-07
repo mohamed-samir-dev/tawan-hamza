@@ -17,7 +17,7 @@ export default function Footer() {
                 <span className="material-symbols-outlined text-amber-400 text-base">verified</span>
                 <span className="text-xs text-gray-400">السجل التجاري</span>
               </div>
-              <span className="text-white font-bold text-sm sm:text-base">7054255687</span>
+              <span className="text-white font-bold text-sm sm:text-base">7054734988</span>
             </div>
           </div>
 
@@ -65,7 +65,7 @@ export default function Footer() {
           <div className="col-span-2 sm:col-span-1">
             <h4 className="text-white font-bold text-sm sm:text-base mb-3 md:mb-4">تواصل معنا</h4>
             <a
-              href="https://wa.me/966591031747"
+              href="https://wa.me/966599535798"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 bg-green-600 hover:bg-green-500 text-white rounded-xl px-4 py-3 transition-colors mb-3"
@@ -75,12 +75,13 @@ export default function Footer() {
               </svg>
               <div>
                 <span className="text-[10px] opacity-75 block">واتساب - نرد بسرعة</span>
-                <span className="font-bold text-sm" dir="ltr">0591031747</span>
+                <span className="font-bold text-sm" dir="ltr">0599535798</span>
               </div>
             </a>
-            <p className="text-gray-500 text-xs leading-relaxed">
-              متاحون للرد على استفساراتك وتوصيل أفضل تجربة تسوق
-            </p>
+            <a href="mailto:sahlnaha@sahlnahanett.net" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors text-xs sm:text-sm mt-3">
+              <span className="material-symbols-outlined text-base">email</span>
+              <span dir="ltr">sahlnaha@sahlnahanett.net</span>
+            </a>
           </div>
         </div>
 

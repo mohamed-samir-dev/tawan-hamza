@@ -11,7 +11,7 @@ export default function ContactPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const whatsappMessage = `الاسم: ${formData.name}\nالموضوع: ${formData.subject}\nالرسالة: ${formData.message}`;
-    window.open(`https://wa.me/966591031747?text=${encodeURIComponent(whatsappMessage)}`, "_blank");
+    window.open(`https://wa.me/966599535798?text=${encodeURIComponent(whatsappMessage)}`, "_blank");
     setSubmitted(true);
   };
 
@@ -32,7 +32,7 @@ export default function ContactPage() {
           <div className="space-y-6">
             <h2 className="text-2xl font-bold text-on-surface mb-6">معلومات التواصل</h2>
 
-            <a href="https://wa.me/966591031747" target="_blank" rel="noopener noreferrer"
+            <a href="https://wa.me/966599535798" target="_blank" rel="noopener noreferrer"
               className="flex items-center gap-3 sm:gap-4 bg-green-50 border border-green-200 rounded-xl p-4 sm:p-5 hover:bg-green-100 transition-colors">
               <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
                 <svg className="w-6 h-6 fill-white" viewBox="0 0 24 24">
@@ -41,17 +41,25 @@ export default function ContactPage() {
               </div>
               <div>
                 <span className="text-sm text-green-700 font-semibold">واتساب</span>
-                <span className="block text-on-surface font-bold" dir="ltr">0591031747</span>
+                <span className="block text-on-surface font-bold" dir="ltr">0599535798</span>
               </div>
             </a>
 
             <div className="flex items-center gap-3 sm:gap-4 bg-surface-container-low border border-outline-variant/30 rounded-xl p-4 sm:p-5">
               <div className="w-10 h-10 sm:w-12 sm:h-12 bg-secondary/10 rounded-full flex items-center justify-center">
-                <span className="material-symbols-outlined text-secondary">location_on</span>
+                <span className="material-symbols-outlined text-secondary">email</span>
+              </div>
+              <div>
+                <span className="text-sm text-on-surface-variant">البريد الإلكتروني</span>
+                <a href="mailto:sahlnaha@sahlnahanett.net" className="block text-on-surface font-bold text-sm sm:text-base hover:text-secondary transition-colors" dir="ltr">sahlnaha@sahlnahanett.net</a>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-3 sm:gap-4 bg-surface-container-low border border-outline-variant/30 rounded-xl p-4 sm:p-5">
               </div>
               <div>
                 <span className="text-sm text-on-surface-variant">العنوان</span>
-                <span className="block text-on-surface font-bold text-sm sm:text-base">المملكة العربية السعودية</span>
+                <span className="block text-on-surface font-bold text-sm sm:text-base">السعودية، الرياض، حي المصانع، شارع عبدالرحمن بن خريف 14714</span>
               </div>
             </div>
 

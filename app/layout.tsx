@@ -41,11 +41,11 @@ export const metadata: Metadata = {
       "وجهتكم الأولى لأحدث الأجهزة الإلكترونية والتقنيات المنزلية والمكتبية. نوفر لكم أحدث الابتكارات التقنية من أرقى الماركات العالمية.",
     images: [
       {
-        url: "https://burjj-almubdia.com/og-image.jpg",
+        url: "/logo.webp",
         width: 1200,
         height: 630,
         alt: "تعون للأجهزة المنزلية",
-        type: "image/jpeg",
+        type: "image/webp",
       },
     ],
   },
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     title: "تعون للأجهزة المنزلية | أفضل الأجهزة بأعلى جودة وأفضل سعر",
     description:
       "وجهتكم الأولى لأحدث الأجهزة الإلكترونية والتقنيات المنزلية والمكتبية.",
-    images: ["https://burjj-almubdia.com/og-image.jpg"],
+    images: ["/logo.webp"],
   },
   robots: {
     index: true,
@@ -68,7 +68,11 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+    ],
     apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
